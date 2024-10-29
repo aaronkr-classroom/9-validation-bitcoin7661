@@ -66,8 +66,9 @@ function checkForm(){
 </script>
 </head>
 <body>
-	<form id = "LoginForm" name="LoginForm">
+	<form id = "LoginForm" name="LoginForm"
 		method="POST" action="0803_valid2_process.jsp"
+		>
 		<p>아이디: <input type="text" id="input_id" name="id" /></p>
 		<p>비밀번호: <input type="password" id="input_pw" name = "passwd" /></p>
 		<p><input type = "submit" value="전송" onclick="checkForm()" /></p>
